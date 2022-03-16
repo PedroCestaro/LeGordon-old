@@ -1,6 +1,7 @@
 ﻿using LeGordon.Adm.Domain.Exceptions;
 using LeGordon.Adm.Domain.Interfaces;
 using LeGordon.Adm.Domain.Validations;
+using LeGordon.Adm.Domain.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace LeGordon.Adm.Domain.Entities
 {
-    public  class Product : Entity, IAggregateRoot
+    public class Product : Entity, IAggregateRoot
     {
         public String Name { get; private set; }
         public String Description { get; private set; }
@@ -18,7 +19,8 @@ namespace LeGordon.Adm.Domain.Entities
         public Int32 CategoryId { get; private set; }
 
         public Category Category { get; private set; }
-       // public ICollection<ProductImage> ProductImages { get; private set; }
+       
+        public ICollection<ProductImage> ProductImages { get; private set; }
 
         private Product() { }
 

@@ -2008,17 +2008,17 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "LeGordon.Adm.Domain/1.0.0": {
+      "LeGordon.Adm.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.2"
         },
         "compile": {
-          "bin/placeholder/LeGordon.Adm.Domain.dll": {}
+          "bin/placeholder/LeGordon.Adm.Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LeGordon.Adm.Domain.dll": {}
+          "bin/placeholder/LeGordon.Adm.Entities.dll": {}
         }
       }
     }
@@ -6942,15 +6942,15 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "LeGordon.Adm.Domain/1.0.0": {
+    "LeGordon.Adm.Entities/1.0.0": {
       "type": "project",
-      "path": "../LeGordon.Adm.Domain/LeGordon.Adm.Domain.csproj",
-      "msbuildProject": "../LeGordon.Adm.Domain/LeGordon.Adm.Domain.csproj"
+      "path": "../LeGordon.Adm.Domain/LeGordon.Adm.Entities.csproj",
+      "msbuildProject": "../LeGordon.Adm.Domain/LeGordon.Adm.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "LeGordon.Adm.Domain >= 1.0.0",
+      "LeGordon.Adm.Entities >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "Moq >= 4.17.2",
       "coverlet.collector >= 3.1.2",
@@ -6995,8 +6995,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj": {
-              "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj"
+            "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj": {
+              "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj"
             }
           }
         }

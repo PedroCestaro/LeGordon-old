@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.Api", "LeGordo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.Data", "LeGordon.Adm.Data\LeGordon.Adm.Data.csproj", "{77808BD8-BEB6-450C-80A3-7BFA68A45A21}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.Domain", "LeGordon.Adm.Domain\LeGordon.Adm.Domain.csproj", "{B7293086-9EC1-42F0-8B76-A1B9D1E27BE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.Entities", "LeGordon.Adm.Domain\LeGordon.Adm.Entities.csproj", "{B7293086-9EC1-42F0-8B76-A1B9D1E27BE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeGordon.Core", "LeGordon.Core\LeGordon.Core.csproj", "{B65DBD84-E40D-4166-9D53-BDD874FA3016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Core", "LeGordon.Core\LeGordon.Core.csproj", "{B65DBD84-E40D-4166-9D53-BDD874FA3016}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{90686349-B445-4EBC-886D-D7B392CCA096}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeGordon.Adm.UnitTests", "LeGordon.Adm.UnitTests\LeGordon.Adm.UnitTests.csproj", "{014BA1A8-FF82-413F-BB27-33E68479428F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.UnitTests", "LeGordon.Adm.UnitTests\LeGordon.Adm.UnitTests.csproj", "{014BA1A8-FF82-413F-BB27-33E68479428F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeGordon.Adm.Services", "LeGordon.Adm.Services\LeGordon.Adm.Services.csproj", "{B607A06F-AECB-4C39-BA1F-3B9D0D4D410D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{014BA1A8-FF82-413F-BB27-33E68479428F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{014BA1A8-FF82-413F-BB27-33E68479428F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{014BA1A8-FF82-413F-BB27-33E68479428F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B607A06F-AECB-4C39-BA1F-3B9D0D4D410D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B607A06F-AECB-4C39-BA1F-3B9D0D4D410D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B607A06F-AECB-4C39-BA1F-3B9D0D4D410D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B607A06F-AECB-4C39-BA1F-3B9D0D4D410D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{B7293086-9EC1-42F0-8B76-A1B9D1E27BE6} = {7CDF1D1C-7977-42DF-B179-4028621E8B5D}
 		{90686349-B445-4EBC-886D-D7B392CCA096} = {7CDF1D1C-7977-42DF-B179-4028621E8B5D}
 		{014BA1A8-FF82-413F-BB27-33E68479428F} = {90686349-B445-4EBC-886D-D7B392CCA096}
+		{B607A06F-AECB-4C39-BA1F-3B9D0D4D410D} = {7CDF1D1C-7977-42DF-B179-4028621E8B5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF26A5FE-C610-4BA5-BDF7-9A38296502AA}
