@@ -21,7 +21,7 @@ namespace LeGordon.Adm.Domain.Validations
                 throw new ProductDomainException("Description not valid");
         }
 
-        public static void ValidatesValue(double value)
+        public static void ValidatesValue(decimal value)
         {
             if (value <= 0)
                 throw new ProductDomainException("Value cannot be zero or less");

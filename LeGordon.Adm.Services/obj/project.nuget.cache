@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OQNnVFWAVtbVNaPjimYOJyRZ0qBw323n4aQUVFmfBMHaPSNcV86R5TA4MB27NurqhUbhwzcFtDJFoXQVrTReEw==",
+  "dgSpecHash": "DjjvprONwHXLVCXn6XaQOm6RP/xNfmZ9aut6BNSiAuvsEJ+NsXXs6jLywD+QocS2RXERr7IlVULl8eS0MMTNkw==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Services\\LeGordon.Adm.Services.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.2\\microsoft.entityframeworkcore.6.0.2.nupkg.sha512",
-    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.2\\microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512",
-    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.2\\microsoft.entityframeworkcore.analyzers.6.0.2.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.3\\microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.3\\microsoft.entityframeworkcore.analyzers.6.0.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",

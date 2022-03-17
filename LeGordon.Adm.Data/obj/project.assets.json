@@ -191,6 +191,19 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "LeGordon.Adm.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/LeGordon.Adm.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LeGordon.Adm.Entities.dll": {}
+        }
       }
     }
   },
@@ -516,10 +529,16 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "LeGordon.Adm.Entities/1.0.0": {
+      "type": "project",
+      "path": "../LeGordon.Adm.Domain/LeGordon.Adm.Entities.csproj",
+      "msbuildProject": "../LeGordon.Adm.Domain/LeGordon.Adm.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "LeGordon.Adm.Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.2"
     ]
   },
@@ -559,7 +578,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj": {
+              "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -595,5 +618,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Downgrade de pacote detectado: Microsoft.EntityFrameworkCore de 6.0.3 para 6.0.2. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n LeGordon.Adm.Data -> LeGordon.Adm.Entities -> Microsoft.EntityFrameworkCore (>= 6.0.3) \r\n LeGordon.Adm.Data -> Microsoft.EntityFrameworkCore (>= 6.0.2)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

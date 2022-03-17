@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeGordon.Adm.Domain.Entities
+namespace LeGordon.Adm.Entities
 {
     public sealed class Category
     {

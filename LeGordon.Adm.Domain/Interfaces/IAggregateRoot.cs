@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeGordon.Adm.Domain.Interfaces
+namespace LeGordon.Adm.Entities
 {
     internal interface IAggregateRoot
     {

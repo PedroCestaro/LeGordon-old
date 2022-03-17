@@ -40,29 +40,26 @@ Create Table Users(
 	Name varchar(250),
 	Document varchar(25),
 	BirthDate Datetime2,
-	RoleId int not null,
 	Email varchar(100),
-	Login varchar(50),
-	Password varbinary(200) 
-);
-
-Create Table UsersRoles(
-	Id UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(),
-	UserId not null References Users(Id),
-	Section varchar(50),
-	Roles mediumtext,
-)
-
-Create Table UsersAddressesId (
-	Id identity(1,1) NOT NULL PRIMARY KEY,
-	UserId UNIQUEIDENTIFIER NOT NULL FOREIGN KEY References Users(Id),
+	Username varchar(50),
+	Password varbinary(200),
 	Address varchar(300),
 	Number varchar(20),
 	Reference varchar(250),
 	ZipCode int(8),
-	CityId int
 );
 
+Create Table UsersRoles(
+	Id UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(),
+	UserId UNIQUEIDENTIFIER not null References Users(Id),
+	RoleId int not null FOREIGN key REFERENCES Roles(Id)
+)
+
+Create Table Roles(
+	Id int not null PRIMARY KEY identity(1,1),
+	Section varchar(50),
+	Values mediumtext,
+)
 
 Create Table UsersPhones(
 	Id int identity(1,1) NOT NULL PRIMARY KEY,
