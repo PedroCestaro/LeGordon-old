@@ -11,8 +11,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Contexts\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeGordon.Adm.Domain\LeGordon.Adm.Entities.csproj" />
   </ItemGroup>
 
 </Project>

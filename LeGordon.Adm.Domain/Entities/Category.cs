@@ -1,9 +1,4 @@
-﻿using LeGordon.Adm.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LeGordon.Adm.Entities.EntitiesValidations;
 
 namespace LeGordon.Adm.Entities
 {
@@ -19,13 +14,18 @@ namespace LeGordon.Adm.Entities
 
         public Category(string name)
         {
-            Name = name;
-            IsActive = true;
+           Name = name;
+           IsActive = true;
+           CategoryValidations.ValidatesName(name);
         }
 
         public void Activate() => IsActive = true;
         public void Deactivate() => IsActive = false;
-        
+        public void SetName(string name)
+        {
+            CategoryValidations.ValidatesName(name);
+        }
 
+      
     }
 }

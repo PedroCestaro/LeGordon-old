@@ -1,6 +1,4 @@
-﻿using LeGordon.Adm.Domain.Exceptions;
-using LeGordon.Adm.Domain.Interfaces;
-using LeGordon.Adm.Domain.Validations;
+﻿using LeGordon.Core.DomianValidations;
 using LeGordon.Adm.Domain.ValueObjects;
 using System;
 using System.Collections.Generic;
@@ -31,7 +29,7 @@ namespace LeGordon.Adm.Entities
             Value = value;
             CategoryId = categoryId;
 
-            ValidateData();
+            ProductValidations.ValideProductData(name, description, value, categoryId);
         }
 
         public void ChangeName(string name)
@@ -48,17 +46,7 @@ namespace LeGordon.Adm.Entities
 
         public void ChangeValue(decimal value)
         {
-            ProductValidations.ValidatesValue(value);
             Value = value;
         }
-
-        private void ValidateData()
-        {
-            ProductValidations.ValidatesName(Name);
-            ProductValidations.ValidatesValue(Value);
-            ProductValidations.ValidatesDescription(Description);
-        }
-
-
     }
 }

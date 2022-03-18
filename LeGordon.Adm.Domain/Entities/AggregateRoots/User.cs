@@ -17,7 +17,7 @@ namespace LeGordon.Adm.Entities
 		public UserLogin UserLogin { get; private set; }
 		public UserAddress UserAddress { get; private set; }	
 
-		public ICollection<UserRole> Roles { get; set; } 
+		public virtual ICollection<UserRole> Roles { get; set; } 
 	
 		public User(string name, string email, string document, DateTime birthDate, UserLogin userLogin, UserAddress userAddress)
         {

@@ -191,6 +191,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "LeGordon.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LeGordon.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LeGordon.Core.dll": {}
+        }
       }
     }
   },
@@ -516,10 +526,16 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "LeGordon.Core/1.0.0": {
+      "type": "project",
+      "path": "../LeGordon.Core/LeGordon.Core.csproj",
+      "msbuildProject": "../LeGordon.Core/LeGordon.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "LeGordon.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.3"
     ]
   },
@@ -559,7 +575,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\LeGordon\\LeGordon.Core\\LeGordon.Core.csproj": {
+              "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Core\\LeGordon.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

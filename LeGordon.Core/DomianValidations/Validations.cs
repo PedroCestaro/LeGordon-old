@@ -3,25 +3,36 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LeGordon.Core.Exceptions;
 
 namespace LeGordon.Core.DomianValidations
 {
-    internal static class Validations
+    public static class Validations
     {
-        public static Boolean ValidatesEquals(object object1, object object2)
+        public static void ValidatesIfDifferent(object object1, object object2, string message)
         {
-            return object1.Equals(object2);
+            if (!object1.Equals(object2))
+                throw new DomainException(message);
         }
 
-        public static Boolean ValidadesNull(object Object)
+        public static void ValidadesNull(object Object, string message)
         {
-            return Object.Equals(null);
+            if(Object.Equals(null))
+                throw new DomainException(message);
         }
 
-        public static void ValidatesStringNullOrEmpity(string validation)
+        public static void ValidatesString(string model, string message)
         {
-            if (String.IsNullOrEmpty(validation))
-                throw new InvalidDataException("String cannot be empity");
+            if(string.IsNullOrEmpty(model))
+                throw new DomainException(message);
         }
+
+        public static void ValidatesValueLowerThanZero(decimal value, string message)
+        {
+            if (value <= 0)
+                throw new DomainException(message);
+        }
+
+       
     }
 }

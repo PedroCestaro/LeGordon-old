@@ -8,15 +8,16 @@ namespace LeGordon.Adm.Entities.ValueObjects
 {
     public class UserRole
     {
-        public Guid Id { get; }
+        public Guid Id { get; private set; }
         public Guid UserId { get; private set; }
         public Int32 RoleId { get; private set; }
 
-        public User User { get; }
-        public Role Role { get; }
+        public virtual User User { get; }
+        public virtual Role Role { get; }
 
         public UserRole(Guid userId, int roleId)
         {
+            Id = Guid.NewGuid();
             UserId = userId;
             RoleId = roleId;
         }

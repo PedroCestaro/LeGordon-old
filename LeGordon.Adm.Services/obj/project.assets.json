@@ -196,6 +196,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "LeGordon.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.3"
         },
         "compile": {
@@ -203,6 +204,16 @@
         },
         "runtime": {
           "bin/placeholder/LeGordon.Adm.Entities.dll": {}
+        }
+      },
+      "LeGordon.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LeGordon.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LeGordon.Core.dll": {}
         }
       }
     }
@@ -534,6 +545,11 @@
       "type": "project",
       "path": "../LeGordon.Adm.Domain/LeGordon.Adm.Entities.csproj",
       "msbuildProject": "../LeGordon.Adm.Domain/LeGordon.Adm.Entities.csproj"
+    },
+    "LeGordon.Core/1.0.0": {
+      "type": "project",
+      "path": "../LeGordon.Core/LeGordon.Core.csproj",
+      "msbuildProject": "../LeGordon.Core/LeGordon.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
