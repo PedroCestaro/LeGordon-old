@@ -1,10 +1,7 @@
 ﻿using LeGordon.Adm.Entities.ValueObjects;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using LeGordon.Adm.Entities.EntitiesValidations;
 
 namespace LeGordon.Adm.Entities
 {
@@ -27,8 +24,40 @@ namespace LeGordon.Adm.Entities
 			BirthDate = birthDate;
 			UserLogin = userLogin;
 			UserAddress = userAddress;
+
+			ValidateData();
         }
 
+		public void ChangeUserName(string name)
+        {
+			UserValidations.ValidatesName(name);
+			Name = name;
+        }
 
+		public void ChangeUserEmail(string email)
+        {
+			UserValidations.ValidatesEmail(email);
+			Email = email;
+        }
+
+		public void ChangeUserDocument(String document)
+        {
+			UserValidations.ValidatesDocument(document);
+			Document = document;
+        }
+
+		public void SetUserBirthdate(DateTime birthdate)
+        {
+			UserValidations.ValidatesBirthdate(birthdate);
+			BirthDate = birthdate;
+        }
+
+		private void ValidateData()
+        {
+			UserValidations.ValidatesName(Name);
+			UserValidations.ValidatesEmail(Email);	
+			UserValidations.ValidatesDocument(Document);
+			UserValidations.ValidatesBirthdate(BirthDate);
+        }
 	}
 }

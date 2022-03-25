@@ -113,7 +113,8 @@ Create Table OrderItems(
 Create Table Products(
 	Id UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(),
 	Name varchar(100),
-	Ingredients mediumtext, 
+	SKU VARCHAR(50),
+	Description mediumtext, 
 	IsActive bit not null DEFAULT 1,
 	Value numeric(10,2),
 	CategoryId int not null FOREIGN KEY References Categories(Id)

@@ -18,10 +18,10 @@ namespace LeGordon.Adm.Data.Contexts
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }
-
         public DbSet<User> Users { get; set; }
         public DbSet<UserRole> UsersRoles { get; set; }
         public DbSet<Role> Roles { get; set; }
+        public DbSet<Coupon> Coupons { get; set; }  
 
      }
 }
