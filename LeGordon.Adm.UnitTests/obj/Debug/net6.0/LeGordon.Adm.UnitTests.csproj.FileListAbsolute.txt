@@ -1,9 +1,4 @@
 C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\CoverletSourceRootsMapping
-C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\obj\Debug\net6.0\LeGordon.Adm.UnitTests.csproj.AssemblyReference.cache
-C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\obj\Debug\net6.0\LeGordon.Adm.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\obj\Debug\net6.0\LeGordon.Adm.UnitTests.AssemblyInfoInputs.cache
-C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\obj\Debug\net6.0\LeGordon.Adm.UnitTests.AssemblyInfo.cs
-C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\obj\Debug\net6.0\LeGordon.Adm.UnitTests.csproj.CoreCompileInputs.cache
 C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\testhost.dll
 C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\testhost.exe
 C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -104,8 +99,15 @@ C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\zh-Hans\Microsoft.V
 C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\LeGordon.Adm.Domain.dll
-C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\LeGordon.Adm.Domain.pdb
+C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\LeGordon.Adm.Entities.dll
+C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\LeGordon.Core.dll
+C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\LeGordon.Adm.Entities.pdb
+C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\bin\Debug\net6.0\LeGordon.Core.pdb
+C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\obj\Debug\net6.0\LeGordon.Adm.UnitTests.csproj.AssemblyReference.cache
+C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\obj\Debug\net6.0\LeGordon.Adm.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\obj\Debug\net6.0\LeGordon.Adm.UnitTests.AssemblyInfoInputs.cache
+C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\obj\Debug\net6.0\LeGordon.Adm.UnitTests.AssemblyInfo.cs
+C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\obj\Debug\net6.0\LeGordon.Adm.UnitTests.csproj.CoreCompileInputs.cache
 C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\obj\Debug\net6.0\LeGordon.Adm.UnitTests.csproj.CopyComplete
 C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\obj\Debug\net6.0\LeGordon.Adm.UnitTests.dll
 C:\Projetos\LeGordon\LeGordon.Adm.UnitTests\obj\Debug\net6.0\refint\LeGordon.Adm.UnitTests.dll

@@ -21,7 +21,7 @@ namespace LeGordon.Adm.Data.Contexts
         public DbSet<User> Users { get; set; }
         public DbSet<UserRole> UsersRoles { get; set; }
         public DbSet<Role> Roles { get; set; }
-        public DbSet<Coupon> Coupons { get; set; }  
+        //public DbSet<Coupon> Coupons { get; set; }  
 
      }
 }

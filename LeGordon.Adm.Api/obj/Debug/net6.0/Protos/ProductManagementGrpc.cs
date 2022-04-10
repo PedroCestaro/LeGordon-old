@@ -48,37 +48,33 @@ namespace LeGordon.Adm.Api {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::LeGordon.Adm.Api.ProductModel> __Marshaller_product_ProductModel = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::LeGordon.Adm.Api.ProductModel.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::LeGordon.Adm.Api.ProductResgistered> __Marshaller_product_ProductResgistered = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::LeGordon.Adm.Api.ProductResgistered.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::LeGordon.Adm.Api.UpdateConfirmation> __Marshaller_product_UpdateConfirmation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::LeGordon.Adm.Api.UpdateConfirmation.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::LeGordon.Adm.Api.DeleteConfirmation> __Marshaller_product_DeleteConfirmation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::LeGordon.Adm.Api.DeleteConfirmation.Parser));
+    static readonly grpc::Marshaller<global::LeGordon.Adm.Api.Confirmation> __Marshaller_product_Confirmation = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::LeGordon.Adm.Api.Confirmation.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::LeGordon.Adm.Api.ProductsList> __Marshaller_product_ProductsList = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::LeGordon.Adm.Api.ProductsList.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.ProductResgistered> __Method_CreateProduct = new grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.ProductResgistered>(
+    static readonly grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.Confirmation> __Method_CreateProduct = new grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.Confirmation>(
         grpc::MethodType.Unary,
         __ServiceName,
         "CreateProduct",
         __Marshaller_product_ProductModel,
-        __Marshaller_product_ProductResgistered);
+        __Marshaller_product_Confirmation);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.UpdateConfirmation> __Method_UpdateProduct = new grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.UpdateConfirmation>(
+    static readonly grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.Confirmation> __Method_UpdateProduct = new grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.Confirmation>(
         grpc::MethodType.Unary,
         __ServiceName,
         "UpdateProduct",
         __Marshaller_product_ProductModel,
-        __Marshaller_product_UpdateConfirmation);
+        __Marshaller_product_Confirmation);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.DeleteConfirmation> __Method_DeleteProduct = new grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.DeleteConfirmation>(
+    static readonly grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.Confirmation> __Method_DeleteProduct = new grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.Confirmation>(
         grpc::MethodType.Unary,
         __ServiceName,
         "DeleteProduct",
         __Marshaller_product_ProductModel,
-        __Marshaller_product_DeleteConfirmation);
+        __Marshaller_product_Confirmation);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.ProductsList> __Method_GetProducts = new grpc::Method<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.ProductsList>(
@@ -99,19 +95,19 @@ namespace LeGordon.Adm.Api {
     public abstract partial class ProductManagementBase
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::LeGordon.Adm.Api.ProductResgistered> CreateProduct(global::LeGordon.Adm.Api.ProductModel request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::LeGordon.Adm.Api.Confirmation> CreateProduct(global::LeGordon.Adm.Api.ProductModel request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::LeGordon.Adm.Api.UpdateConfirmation> UpdateProduct(global::LeGordon.Adm.Api.ProductModel request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::LeGordon.Adm.Api.Confirmation> UpdateProduct(global::LeGordon.Adm.Api.ProductModel request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::LeGordon.Adm.Api.DeleteConfirmation> DeleteProduct(global::LeGordon.Adm.Api.ProductModel request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::LeGordon.Adm.Api.Confirmation> DeleteProduct(global::LeGordon.Adm.Api.ProductModel request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -143,9 +139,9 @@ namespace LeGordon.Adm.Api {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, ProductManagementBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_CreateProduct, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.ProductResgistered>(serviceImpl.CreateProduct));
-      serviceBinder.AddMethod(__Method_UpdateProduct, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.UpdateConfirmation>(serviceImpl.UpdateProduct));
-      serviceBinder.AddMethod(__Method_DeleteProduct, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.DeleteConfirmation>(serviceImpl.DeleteProduct));
+      serviceBinder.AddMethod(__Method_CreateProduct, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.Confirmation>(serviceImpl.CreateProduct));
+      serviceBinder.AddMethod(__Method_UpdateProduct, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.Confirmation>(serviceImpl.UpdateProduct));
+      serviceBinder.AddMethod(__Method_DeleteProduct, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.Confirmation>(serviceImpl.DeleteProduct));
       serviceBinder.AddMethod(__Method_GetProducts, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::LeGordon.Adm.Api.ProductModel, global::LeGordon.Adm.Api.ProductsList>(serviceImpl.GetProducts));
     }
 

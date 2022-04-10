@@ -31,26 +31,22 @@ namespace LeGordon.Adm.Api {
             "ASgFSAWIAQESJQoGSW1hZ2VzGAcgAygLMhUucHJvZHVjdC5Qcm9kdWN0SW1h",
             "Z2VCBQoDX0lkQgcKBV9OYW1lQg4KDF9EZXNjcmlwdGlvbkILCglfSXNBY3Rp",
             "dmVCCAoGX1ZhbHVlQg0KC19DYXRlZ29yeUlkIikKDFByb2R1Y3RJbWFnZRIM",
-            "CgROYW1lGAEgASgJEgsKA1VybBgCIAEoCSIoChJQcm9kdWN0UmVzZ2lzdGVy",
-            "ZWQSEgoKUmVnaXN0ZXJlZBgBIAEoCCIoChJVcGRhdGVDb25maXJtYXRpb24S",
-            "EgoKQ29uZmltYXRlZBgBIAEoCCIlChJEZWxldGVDb25maXJtYXRpb24SDwoH",
-            "RGVsZXRlZBgBIAEoCCI3CgxQcm9kdWN0c0xpc3QSJwoIUHJvZHVjdHMYASAD",
-            "KAsyFS5wcm9kdWN0LlByb2R1Y3RNb2RlbDKfAgoRUHJvZHVjdE1hbmFnZW1l",
-            "bnQSQwoNQ3JlYXRlUHJvZHVjdBIVLnByb2R1Y3QuUHJvZHVjdE1vZGVsGhsu",
-            "cHJvZHVjdC5Qcm9kdWN0UmVzZ2lzdGVyZWQSQwoNVXBkYXRlUHJvZHVjdBIV",
-            "LnByb2R1Y3QuUHJvZHVjdE1vZGVsGhsucHJvZHVjdC5VcGRhdGVDb25maXJt",
-            "YXRpb24SQwoNRGVsZXRlUHJvZHVjdBIVLnByb2R1Y3QuUHJvZHVjdE1vZGVs",
-            "GhsucHJvZHVjdC5EZWxldGVDb25maXJtYXRpb24SOwoLR2V0UHJvZHVjdHMS",
-            "FS5wcm9kdWN0LlByb2R1Y3RNb2RlbBoVLnByb2R1Y3QuUHJvZHVjdHNMaXN0",
-            "QhOqAhBMZUdvcmRvbi5BZG0uQXBpYgZwcm90bzM="));
+            "CgROYW1lGAEgASgJEgsKA1VybBgCIAEoCSIfCgxDb25maXJtYXRpb24SDwoH",
+            "c3VjY2VzcxgBIAEoCCI3CgxQcm9kdWN0c0xpc3QSJwoIUHJvZHVjdHMYASAD",
+            "KAsyFS5wcm9kdWN0LlByb2R1Y3RNb2RlbDKNAgoRUHJvZHVjdE1hbmFnZW1l",
+            "bnQSPQoNQ3JlYXRlUHJvZHVjdBIVLnByb2R1Y3QuUHJvZHVjdE1vZGVsGhUu",
+            "cHJvZHVjdC5Db25maXJtYXRpb24SPQoNVXBkYXRlUHJvZHVjdBIVLnByb2R1",
+            "Y3QuUHJvZHVjdE1vZGVsGhUucHJvZHVjdC5Db25maXJtYXRpb24SPQoNRGVs",
+            "ZXRlUHJvZHVjdBIVLnByb2R1Y3QuUHJvZHVjdE1vZGVsGhUucHJvZHVjdC5D",
+            "b25maXJtYXRpb24SOwoLR2V0UHJvZHVjdHMSFS5wcm9kdWN0LlByb2R1Y3RN",
+            "b2RlbBoVLnByb2R1Y3QuUHJvZHVjdHNMaXN0QhOqAhBMZUdvcmRvbi5BZG0u",
+            "QXBpYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LeGordon.Adm.Api.ProductModel), global::LeGordon.Adm.Api.ProductModel.Parser, new[]{ "Id", "Name", "Description", "IsActive", "Value", "CategoryId", "Images" }, new[]{ "Id", "Name", "Description", "IsActive", "Value", "CategoryId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LeGordon.Adm.Api.ProductImage), global::LeGordon.Adm.Api.ProductImage.Parser, new[]{ "Name", "Url" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LeGordon.Adm.Api.ProductResgistered), global::LeGordon.Adm.Api.ProductResgistered.Parser, new[]{ "Registered" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LeGordon.Adm.Api.UpdateConfirmation), global::LeGordon.Adm.Api.UpdateConfirmation.Parser, new[]{ "Confimated" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LeGordon.Adm.Api.DeleteConfirmation), global::LeGordon.Adm.Api.DeleteConfirmation.Parser, new[]{ "Deleted" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LeGordon.Adm.Api.Confirmation), global::LeGordon.Adm.Api.Confirmation.Parser, new[]{ "Success" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LeGordon.Adm.Api.ProductsList), global::LeGordon.Adm.Api.ProductsList.Parser, new[]{ "Products" }, null, null, null, null)
           }));
     }
@@ -761,16 +757,16 @@ namespace LeGordon.Adm.Api {
 
   }
 
-  public sealed partial class ProductResgistered : pb::IMessage<ProductResgistered>
+  public sealed partial class Confirmation : pb::IMessage<Confirmation>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<ProductResgistered> _parser = new pb::MessageParser<ProductResgistered>(() => new ProductResgistered());
+    private static readonly pb::MessageParser<Confirmation> _parser = new pb::MessageParser<Confirmation>(() => new Confirmation());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<ProductResgistered> Parser { get { return _parser; } }
+    public static pb::MessageParser<Confirmation> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -786,7 +782,7 @@ namespace LeGordon.Adm.Api {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ProductResgistered() {
+    public Confirmation() {
       OnConstruction();
     }
 
@@ -794,45 +790,45 @@ namespace LeGordon.Adm.Api {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ProductResgistered(ProductResgistered other) : this() {
-      registered_ = other.registered_;
+    public Confirmation(Confirmation other) : this() {
+      success_ = other.success_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ProductResgistered Clone() {
-      return new ProductResgistered(this);
+    public Confirmation Clone() {
+      return new Confirmation(this);
     }
 
-    /// <summary>Field number for the "Registered" field.</summary>
-    public const int RegisteredFieldNumber = 1;
-    private bool registered_;
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 1;
+    private bool success_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Registered {
-      get { return registered_; }
+    public bool Success {
+      get { return success_; }
       set {
-        registered_ = value;
+        success_ = value;
       }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as ProductResgistered);
+      return Equals(other as Confirmation);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(ProductResgistered other) {
+    public bool Equals(Confirmation other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Registered != other.Registered) return false;
+      if (Success != other.Success) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -840,7 +836,7 @@ namespace LeGordon.Adm.Api {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Registered != false) hash ^= Registered.GetHashCode();
+      if (Success != false) hash ^= Success.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -859,9 +855,9 @@ namespace LeGordon.Adm.Api {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Registered != false) {
+      if (Success != false) {
         output.WriteRawTag(8);
-        output.WriteBool(Registered);
+        output.WriteBool(Success);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -873,9 +869,9 @@ namespace LeGordon.Adm.Api {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Registered != false) {
+      if (Success != false) {
         output.WriteRawTag(8);
-        output.WriteBool(Registered);
+        output.WriteBool(Success);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -887,7 +883,7 @@ namespace LeGordon.Adm.Api {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Registered != false) {
+      if (Success != false) {
         size += 1 + 1;
       }
       if (_unknownFields != null) {
@@ -898,12 +894,12 @@ namespace LeGordon.Adm.Api {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(ProductResgistered other) {
+    public void MergeFrom(Confirmation other) {
       if (other == null) {
         return;
       }
-      if (other.Registered != false) {
-        Registered = other.Registered;
+      if (other.Success != false) {
+        Success = other.Success;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -921,7 +917,7 @@ namespace LeGordon.Adm.Api {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            Registered = input.ReadBool();
+            Success = input.ReadBool();
             break;
           }
         }
@@ -940,385 +936,7 @@ namespace LeGordon.Adm.Api {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 8: {
-            Registered = input.ReadBool();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  public sealed partial class UpdateConfirmation : pb::IMessage<UpdateConfirmation>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<UpdateConfirmation> _parser = new pb::MessageParser<UpdateConfirmation>(() => new UpdateConfirmation());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<UpdateConfirmation> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::LeGordon.Adm.Api.ProductManagementReflection.Descriptor.MessageTypes[3]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpdateConfirmation() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpdateConfirmation(UpdateConfirmation other) : this() {
-      confimated_ = other.confimated_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public UpdateConfirmation Clone() {
-      return new UpdateConfirmation(this);
-    }
-
-    /// <summary>Field number for the "Confimated" field.</summary>
-    public const int ConfimatedFieldNumber = 1;
-    private bool confimated_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Confimated {
-      get { return confimated_; }
-      set {
-        confimated_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as UpdateConfirmation);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(UpdateConfirmation other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Confimated != other.Confimated) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Confimated != false) hash ^= Confimated.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Confimated != false) {
-        output.WriteRawTag(8);
-        output.WriteBool(Confimated);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Confimated != false) {
-        output.WriteRawTag(8);
-        output.WriteBool(Confimated);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (Confimated != false) {
-        size += 1 + 1;
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(UpdateConfirmation other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Confimated != false) {
-        Confimated = other.Confimated;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            Confimated = input.ReadBool();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            Confimated = input.ReadBool();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  public sealed partial class DeleteConfirmation : pb::IMessage<DeleteConfirmation>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<DeleteConfirmation> _parser = new pb::MessageParser<DeleteConfirmation>(() => new DeleteConfirmation());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<DeleteConfirmation> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::LeGordon.Adm.Api.ProductManagementReflection.Descriptor.MessageTypes[4]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteConfirmation() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteConfirmation(DeleteConfirmation other) : this() {
-      deleted_ = other.deleted_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteConfirmation Clone() {
-      return new DeleteConfirmation(this);
-    }
-
-    /// <summary>Field number for the "Deleted" field.</summary>
-    public const int DeletedFieldNumber = 1;
-    private bool deleted_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Deleted {
-      get { return deleted_; }
-      set {
-        deleted_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as DeleteConfirmation);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(DeleteConfirmation other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Deleted != other.Deleted) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Deleted != false) hash ^= Deleted.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Deleted != false) {
-        output.WriteRawTag(8);
-        output.WriteBool(Deleted);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Deleted != false) {
-        output.WriteRawTag(8);
-        output.WriteBool(Deleted);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (Deleted != false) {
-        size += 1 + 1;
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(DeleteConfirmation other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Deleted != false) {
-        Deleted = other.Deleted;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            Deleted = input.ReadBool();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            Deleted = input.ReadBool();
+            Success = input.ReadBool();
             break;
           }
         }
@@ -1342,7 +960,7 @@ namespace LeGordon.Adm.Api {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LeGordon.Adm.Api.ProductManagementReflection.Descriptor.MessageTypes[5]; }
+      get { return global::LeGordon.Adm.Api.ProductManagementReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

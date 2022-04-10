@@ -6,11 +6,11 @@ package product ;
 
 service ProductManagement{
 
-	rpc CreateProduct (ProductModel) returns (ProductResgistered);
+	rpc CreateProduct (ProductModel) returns (Confirmation);
 
-	rpc UpdateProduct (ProductModel) returns (UpdateConfirmation);
+	rpc UpdateProduct (ProductModel) returns (Confirmation);
 
-	rpc DeleteProduct (ProductModel) returns (DeleteConfirmation);
+	rpc DeleteProduct (ProductModel) returns (Confirmation);
 
 	rpc GetProducts (ProductModel)  returns (ProductsList);
 }
@@ -30,16 +30,8 @@ message ProductImage{
 	string Url = 2;
 }
 
-message ProductResgistered{
-	bool Registered = 1;
-}
-
-message UpdateConfirmation{
-	bool Confimated = 1;
-}
-
-message DeleteConfirmation {
-	bool  Deleted = 1;
+message Confirmation{
+	bool success = 1;
 }
 
 message ProductsList {
