@@ -1,0 +1,48 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "LeGordon.Adm.Api";
+
+package product ;
+
+service ProductManagement{
+
+	rpc CreateProduct (ProductModel) returns (ProductResgistered);
+
+	rpc UpdateProduct (ProductModel) returns (UpdateConfirmation);
+
+	rpc DeleteProduct (ProductModel) returns (DeleteConfirmation);
+
+	rpc GetProducts (ProductModel)  returns (ProductsList);
+}
+
+message ProductModel {
+	optional string Id = 1;
+	optional string Name = 2;
+	optional string Description = 3;
+	optional bool IsActive = 4;
+	optional double Value = 5;
+	optional int32 CategoryId = 6;
+	repeated ProductImage Images = 7;
+}
+
+message ProductImage{
+	string Name = 1;
+	string Url = 2;
+}
+
+message ProductResgistered{
+	bool Registered = 1;
+}
+
+message UpdateConfirmation{
+	bool Confimated = 1;
+}
+
+message DeleteConfirmation {
+	bool  Deleted = 1;
+}
+
+message ProductsList {
+	repeated ProductModel  Products= 1;
+}
+
