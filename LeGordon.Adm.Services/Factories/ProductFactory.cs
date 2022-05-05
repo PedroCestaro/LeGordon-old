@@ -7,13 +7,13 @@ using System.Text;
 using System.Threading.Tasks;
 using LeGordon.Adm.Entities;
 
-namespace LeGordon.Adm.Services.Factories
+namespace LeGordon.Adm.Services
 {
-    internal class ProductFactory : IProductAbstractFactory
+    public sealed class ProductFactory 
     {
-        public Product CreateProduct(ProductDto model)
+        public  Task<Product> CreateProduct(ProductDto model)
         {
-            return new Product(model.Name, model.Description, model.Value, model.CategoryId);
+            return Task.FromResult( new Product(model.Name, model.Description, model.Value, model.CategoryId));
         }
     }
 }

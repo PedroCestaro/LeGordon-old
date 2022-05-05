@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeGordon.Adm.Services.Dto
+namespace LeGordon.Adm.Services
 {
     public class ProductDto
     {

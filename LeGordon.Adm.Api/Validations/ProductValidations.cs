@@ -7,9 +7,9 @@ namespace LeGordon.Adm.Api.Validations
     {
         public ProductValidations()
         {
-            RuleFor(product => product.name).NotEmpty();
-            RuleFor(product => product.description).NotEmpty();
-            RuleFor(product => product.categoryId).NotEmpty();
+            RuleFor(product => product.name).NotEmpty().NotNull();
+            RuleFor(product => product.description).NotEmpty().NotNull();
+            RuleFor(product => product.categoryId).NotEmpty().NotNull();
         }
     }
 }
