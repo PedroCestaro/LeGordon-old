@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.UnitTests", "L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.Services", "LeGordon.Adm.Services\LeGordon.Adm.Services.csproj", "{B607A06F-AECB-4C39-BA1F-3B9D0D4D410D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeGordon.Adm.Api", "LeGordon.Adm.Api\LeGordon.Adm.Api.csproj", "{0418C60C-E364-49BE-8420-0DB4700C8AA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.Api", "LeGordon.Adm.Api\LeGordon.Adm.Api.csproj", "{0418C60C-E364-49BE-8420-0DB4700C8AA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{B93853EC-C12F-4D4C-8CD6-05B271EBF004}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
