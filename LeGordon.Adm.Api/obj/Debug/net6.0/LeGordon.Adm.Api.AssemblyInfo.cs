@@ -11,12 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("LeGordon.Adm.Api")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("eb9c579b-1703-4cbd-95fa-56df93e5efae")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Legordon.Adm.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("LeGordon.Adm.Api")]
-[assembly: System.Reflection.AssemblyTitleAttribute("LeGordon.Adm.Api")]
+[assembly: System.Reflection.AssemblyProductAttribute("Legordon.Adm.Api")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Legordon.Adm.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

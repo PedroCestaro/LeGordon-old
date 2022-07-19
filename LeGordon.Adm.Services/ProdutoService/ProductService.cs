@@ -2,7 +2,7 @@
 
 namespace LeGordon.Adm.Services
 {
-    public abstract class ProdutoService : IFacade, IProductService
+    public abstract class ProductService : IFacade, IProductService
     {
         private ProductFactory _productFactory { get; set; }  
 
