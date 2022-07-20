@@ -8,6 +8,6 @@ namespace Legordon.Adm.Api.Models
         public String ProductDescription { get; set; }
         public Int32 CategoryId { get; set; }
         public Double Value { get; set; }   
-        public List<String> ProductURLImages { get; set; }
+        public List<Images> ProductImages { get; set; }
     }
 }

@@ -1,8 +1,8 @@
-﻿namespace LeGordon.Adm.Api.Models
+﻿namespace Legordon.Adm.Api.Models
 {
     public class Images
     {
-        public string name { get; set; }
-        public string url { get; set; }
+        public String Name { get; set; }
+        public String Url { get; set; }
     }
 }
