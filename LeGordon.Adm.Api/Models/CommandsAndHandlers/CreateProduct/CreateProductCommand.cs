@@ -2,7 +2,7 @@
 
 namespace Legordon.Adm.Api.Models
 {
-    public class CreateProductCommand : IRequest
+    public class CreateProductCommand : IRequest<Unit>
     {
         public String ProductName { get; set; }
         public String ProductDescription { get; set; }

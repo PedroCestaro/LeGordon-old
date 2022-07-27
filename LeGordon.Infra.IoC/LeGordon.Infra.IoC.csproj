@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Legordon.Adm.Api\Legordon.Adm.Api.csproj" />
+    <ProjectReference Include="..\LeGordon.Adm.Data\LeGordon.Adm.Data.csproj" />
+    <ProjectReference Include="..\LeGordon.Adm.Domain\LeGordon.Adm.Entities.csproj" />
+    <ProjectReference Include="..\LeGordon.Adm.Services\LeGordon.Adm.Services.csproj" />
+    <ProjectReference Include="..\LeGordon.Core\LeGordon.Core.csproj" />
+  </ItemGroup>
+
+</Project>

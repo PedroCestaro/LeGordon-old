@@ -1,11 +1,21 @@
+using Legordon.Adm.Api.Infrastructure.IoC;
+using AutoMapper;
+using MediatR;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+ApplicationDI.RegisterApplicationServices(builder.Services);
+CqrsDI.ConfigureCQRSServices(builder.Services);
+EntityServicesDI.RegisterEntityServices(builder.Services);  
+
+
 
 var app = builder.Build();
 
