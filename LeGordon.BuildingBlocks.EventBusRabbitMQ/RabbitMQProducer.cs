@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
@@ -14,7 +15,7 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
         private readonly string _password;
         private readonly string _username;
         private readonly bool _lifeTime;
-        private IConnection _connection;
+        private IConnection? _connection;
 
         public RabbitMQProducer(string hostname, string password, string username, bool lifeTime)
         {
@@ -25,19 +26,19 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
         }
 
 
-        public Task Publish(MessageBase message, string queueName)
+        public Task Publish(String message, string queueName)
         {
             var chanel = SetChanel(queueName);
-           
+            var body= EncryptMessageBody(message);
+
+            chanel.BasicPublish(exchange: "", routingKey: queueName, body: body);
 
             return Task.CompletedTask;
         }
 
-        private byte[] EncryptMessageBody(MessageBase messageBase)
+        private byte[] EncryptMessageBody(String message)
         {
-            //receber o json apenas, para depois converter
-
-            return Byte.(messageBase);
+            return Encoding.UTF8.GetBytes(message);
         }
 
         private IModel SetChanel(string queueName)

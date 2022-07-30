@@ -8,6 +8,6 @@ namespace LeGordon.BuildingBlocks.EventBus
 {
     public interface IMessageProducer
     {
-        Task Publish(MessageBase message, string queueName);
+        Task Publish(String message, string queueName);
     }
 }

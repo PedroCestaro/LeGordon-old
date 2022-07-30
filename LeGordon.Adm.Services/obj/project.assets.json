@@ -192,6 +192,20 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "LeGordon.Adm.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LeGordon.Adm.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/LeGordon.Adm.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LeGordon.Adm.Data.dll": {}
+        }
+      },
       "LeGordon.Adm.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -541,6 +555,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "LeGordon.Adm.Data/1.0.0": {
+      "type": "project",
+      "path": "../LeGordon.Adm.Data/LeGordon.Adm.Data.csproj",
+      "msbuildProject": "../LeGordon.Adm.Data/LeGordon.Adm.Data.csproj"
+    },
     "LeGordon.Adm.Entities/1.0.0": {
       "type": "project",
       "path": "../LeGordon.Adm.Domain/LeGordon.Adm.Entities.csproj",
@@ -554,6 +573,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "LeGordon.Adm.Data >= 1.0.0",
       "LeGordon.Adm.Entities >= 1.0.0"
     ]
   },
@@ -588,6 +608,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Projetos\\LeGordon\\LeGordon.Adm.Data\\LeGordon.Adm.Data.csproj": {
+              "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Data\\LeGordon.Adm.Data.csproj"
+            },
             "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj": {
               "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj"
             }

@@ -21,9 +21,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Legordon.Adm.Api", "Legordon.Adm.Api\Legordon.Adm.Api.csproj", "{73E1420B-46B3-458B-BA87-1D290AD4A13C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeGordon.BuildingBlocks.EventBus", "LeGordon.BuildingBlocks.EventBus\LeGordon.BuildingBlocks.EventBus.csproj", "{219E825F-0036-48D5-B056-BCD77D9763B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.BuildingBlocks.EventBus", "LeGordon.BuildingBlocks.EventBus\LeGordon.BuildingBlocks.EventBus.csproj", "{219E825F-0036-48D5-B056-BCD77D9763B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeGordon.BuildingBlocks.EventBusRabbitMQ", "LeGordon.BuildingBlocks.EventBusRabbitMQ\LeGordon.BuildingBlocks.EventBusRabbitMQ.csproj", "{90732D58-8A0D-4B1F-A00B-FCEF210164D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.BuildingBlocks.EventBusRabbitMQ", "LeGordon.BuildingBlocks.EventBusRabbitMQ\LeGordon.BuildingBlocks.EventBusRabbitMQ.csproj", "{90732D58-8A0D-4B1F-A00B-FCEF210164D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.MessageHandlers", "LeGordon.Adm.MessageBusSubscribers\LeGordon.Adm.MessageHandlers.csproj", "{EFAA3103-1300-4B0E-931A-5F50327E42D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeGordon.Adm.Infrastructure.IoC", "LeGordon.Adm.Infrastructure.IoC\LeGordon.Adm.Infrastructure.IoC.csproj", "{EDFA22A9-296B-4459-995C-019238FF7EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeGordon.Adm.Application", "LeGordon.Adm.Application\LeGordon.Adm.Application.csproj", "{2A12C8D4-CBCF-4695-985F-C2DC35284A63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{90732D58-8A0D-4B1F-A00B-FCEF210164D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90732D58-8A0D-4B1F-A00B-FCEF210164D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90732D58-8A0D-4B1F-A00B-FCEF210164D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFAA3103-1300-4B0E-931A-5F50327E42D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFAA3103-1300-4B0E-931A-5F50327E42D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFAA3103-1300-4B0E-931A-5F50327E42D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFAA3103-1300-4B0E-931A-5F50327E42D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDFA22A9-296B-4459-995C-019238FF7EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFA22A9-296B-4459-995C-019238FF7EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFA22A9-296B-4459-995C-019238FF7EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFA22A9-296B-4459-995C-019238FF7EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A12C8D4-CBCF-4695-985F-C2DC35284A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A12C8D4-CBCF-4695-985F-C2DC35284A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A12C8D4-CBCF-4695-985F-C2DC35284A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A12C8D4-CBCF-4695-985F-C2DC35284A63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +94,9 @@ Global
 		{73E1420B-46B3-458B-BA87-1D290AD4A13C} = {7CDF1D1C-7977-42DF-B179-4028621E8B5D}
 		{219E825F-0036-48D5-B056-BCD77D9763B8} = {B93853EC-C12F-4D4C-8CD6-05B271EBF004}
 		{90732D58-8A0D-4B1F-A00B-FCEF210164D6} = {B93853EC-C12F-4D4C-8CD6-05B271EBF004}
+		{EFAA3103-1300-4B0E-931A-5F50327E42D8} = {7CDF1D1C-7977-42DF-B179-4028621E8B5D}
+		{EDFA22A9-296B-4459-995C-019238FF7EFE} = {7CDF1D1C-7977-42DF-B179-4028621E8B5D}
+		{2A12C8D4-CBCF-4695-985F-C2DC35284A63} = {7CDF1D1C-7977-42DF-B179-4028621E8B5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF26A5FE-C610-4BA5-BDF7-9A38296502AA}

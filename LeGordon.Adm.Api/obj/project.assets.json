@@ -338,6 +338,20 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "LeGordon.Adm.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LeGordon.Adm.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/LeGordon.Adm.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LeGordon.Adm.Data.dll": {}
+        }
+      },
       "LeGordon.Adm.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -356,6 +370,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "LeGordon.Adm.Data": "1.0.0",
           "LeGordon.Adm.Entities": "1.0.0"
         },
         "compile": {
@@ -363,6 +378,16 @@
         },
         "runtime": {
           "bin/placeholder/LeGordon.Adm.Services.dll": {}
+        }
+      },
+      "LeGordon.BuildingBlocks.EventBus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LeGordon.BuildingBlocks.EventBus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LeGordon.BuildingBlocks.EventBus.dll": {}
         }
       },
       "LeGordon.Core/1.0.0": {
@@ -1250,6 +1275,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "LeGordon.Adm.Data/1.0.0": {
+      "type": "project",
+      "path": "../LeGordon.Adm.Data/LeGordon.Adm.Data.csproj",
+      "msbuildProject": "../LeGordon.Adm.Data/LeGordon.Adm.Data.csproj"
+    },
     "LeGordon.Adm.Entities/1.0.0": {
       "type": "project",
       "path": "../LeGordon.Adm.Domain/LeGordon.Adm.Entities.csproj",
@@ -1259,6 +1289,11 @@
       "type": "project",
       "path": "../LeGordon.Adm.Services/LeGordon.Adm.Services.csproj",
       "msbuildProject": "../LeGordon.Adm.Services/LeGordon.Adm.Services.csproj"
+    },
+    "LeGordon.BuildingBlocks.EventBus/1.0.0": {
+      "type": "project",
+      "path": "../LeGordon.BuildingBlocks.EventBus/LeGordon.BuildingBlocks.EventBus.csproj",
+      "msbuildProject": "../LeGordon.BuildingBlocks.EventBus/LeGordon.BuildingBlocks.EventBus.csproj"
     },
     "LeGordon.Core/1.0.0": {
       "type": "project",
@@ -1271,6 +1306,7 @@
       "AutoMapper >= 11.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "LeGordon.Adm.Services >= 1.0.0",
+      "LeGordon.BuildingBlocks.EventBus >= 1.0.0",
       "MediatR >= 10.0.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.16.1",
@@ -1310,6 +1346,9 @@
           "projectReferences": {
             "C:\\Projetos\\LeGordon\\LeGordon.Adm.Services\\LeGordon.Adm.Services.csproj": {
               "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Services\\LeGordon.Adm.Services.csproj"
+            },
+            "C:\\Projetos\\LeGordon\\LeGordon.BuildingBlocks.EventBus\\LeGordon.BuildingBlocks.EventBus.csproj": {
+              "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.BuildingBlocks.EventBus\\LeGordon.BuildingBlocks.EventBus.csproj"
             }
           }
         }
