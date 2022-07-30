@@ -4,7 +4,7 @@ using AutoMapper;
 using LeGordon.BuildingBlocks.EventBus;
 using System.Text.Json;
 
-namespace Legordon.Adm.Api.Models
+namespace LeGordon.Adm.Application
 {
     public class CreateProductHandler : IRequestHandler<CreateProductCommand>
     {
@@ -12,7 +12,7 @@ namespace Legordon.Adm.Api.Models
         private readonly IMapper _mapper;
         private readonly IMessageProducer _messageProducer;
 
-        public CreateProductHandler (IProductService ProductService, IMapper mapper, IMessageProducer messageProducer)
+        public CreateProductHandler(IProductService ProductService, IMapper mapper, IMessageProducer messageProducer)
         {
             _productService = ProductService;
             _mapper = mapper;
@@ -24,7 +24,7 @@ namespace Legordon.Adm.Api.Models
             var createProductMessageBody = JsonSerializer.Serialize(messageModel);
 
             _messageProducer.Publish(createProductMessageBody, "");
-            
+
             return Task.FromResult(Unit.Value);
         }
     }

@@ -1,13 +1,13 @@
 ﻿using LeGordon.BuildingBlocks.EventBus;
 
-namespace Legordon.Adm.Api.Models
+namespace LeGordon.Adm.Application
 {
-    public record CreateProductMessage: MessageBase
+    public record CreateProductMessage : MessageBase
     {
-        public String ProductName { get; set; }
-        public String ProductDescription { get; set; }
-        public Int32 CategoryId { get; set; }
-        public Double Value { get; set; }
+        public string ProductName { get; set; }
+        public string ProductDescription { get; set; }
+        public int CategoryId { get; set; }
+        public double Value { get; set; }
         public List<Images> ProductImages { get; set; }
 
         public CreateProductMessage(string productName, string productDescription, int categoryId, double value, List<Images> productImages)
