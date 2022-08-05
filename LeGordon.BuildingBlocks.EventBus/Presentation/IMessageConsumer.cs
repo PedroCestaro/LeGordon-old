@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace LeGordon.BuildingBlocks.EventBus
 {
+    public interface IMessageConsumer<in TMessage> : IMessageConsumer
+                where TMessage : MessageBase
+    {
+        Task Consume();
+    }
+
     public interface IMessageConsumer
     {
 

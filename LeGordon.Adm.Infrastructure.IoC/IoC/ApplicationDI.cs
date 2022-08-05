@@ -1,7 +1,9 @@
 ﻿using MediatR;
 using AutoMapper;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace Legordon.Adm.Api.Infrastructure.IoC
+
+namespace LeGordon.Adm.Infrastructure.IoC
 {
     public static class ApplicationDI
     {

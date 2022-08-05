@@ -6,4 +6,25 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeGordon.Adm.Application\LeGordon.Adm.Application.csproj" />
+    <ProjectReference Include="..\LeGordon.Adm.Data\LeGordon.Adm.Data.csproj" />
+    <ProjectReference Include="..\LeGordon.Adm.Domain\LeGordon.Adm.Entities.csproj" />
+    <ProjectReference Include="..\LeGordon.Adm.MessageBusSubscribers\LeGordon.Adm.MessageHandlers.csproj" />
+    <ProjectReference Include="..\LeGordon.Adm.Services\LeGordon.Adm.Services.csproj" />
+    <ProjectReference Include="..\LeGordon.BuildingBlocks.EventBus\LeGordon.BuildingBlocks.EventBus.csproj" />
+    <ProjectReference Include="..\LeGordon.Core\LeGordon.Core.csproj" />
+  </ItemGroup>
+
 </Project>

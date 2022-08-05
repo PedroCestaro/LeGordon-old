@@ -2,7 +2,7 @@
 using Legordon.Adm.Api.Models;
 using LeGordon.Adm.Services;
 
-namespace Legordon.Adm.Api.Infrastructure.AutoMapper
+namespace LeGordon.Adm.Infrastructure.IoC.AutoMapper
 {
     public class FromRequestToDtoMapperSetting : Profile
     {

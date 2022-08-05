@@ -1,6 +1,6 @@
 ﻿using LeGordon.Adm.Services;
 
-namespace Legordon.Adm.Api.Infrastructure.IoC
+namespace LeGordon.Adm.Infrastructure.IoC
 {
     public static class EntityServicesDI
     {

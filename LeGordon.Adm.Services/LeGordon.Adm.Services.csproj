@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LeGordon.Adm.Data\LeGordon.Adm.Data.csproj" />
     <ProjectReference Include="..\LeGordon.Adm.Domain\LeGordon.Adm.Entities.csproj" />
   </ItemGroup>
 
