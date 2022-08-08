@@ -10,13 +10,13 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
     public class QueueManager : IQueueManager
     {
 
-        private IConnection? _connection;
+        private readonly IQueueConnector _connector;
         public List<string> Queues { get; private set; }
 
 
-        public QueueManager(IConnection connection)
+        public QueueManager(IQueueConnector connection)
         {
-            _connection = connection;
+            _connector = connection;
         }
         
         public async Task SetQueue(string queuename)
@@ -34,7 +34,7 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
                 Dictionary<string, object> arguments = new Dictionary<string, object>();
                 arguments.Add("x-queue-type", "quorum");
 
-                var chanel = await CreateChanel();
+                var chanel = await _connector.CreateChanel();
                 chanel.QueueDeclare
                     (
                             queue: queueName,
@@ -60,15 +60,9 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
             return Queues.Contains(queueName);
         }
 
-        public bool IsConnected()
-        {
-            return _connection != null && _connection.IsOpen;
-        }
+       
 
-        public Task<IModel> CreateChanel()
-        {
-            return Task.FromResult( _connection.CreateModel() );
-        }
+        
 
     }
 

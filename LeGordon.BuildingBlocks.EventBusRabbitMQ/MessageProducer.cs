@@ -15,21 +15,27 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
 
 
         private readonly IQueueManager _queueManager;
+        private readonly IQueueConnector _queueConnector;
 
-        public MessageProducer(IQueueManager queueManager)
+        public MessageProducer(IQueueManager queueManager, IQueueConnector queueConnector)
         {
             _queueManager = queueManager;   
+            _queueConnector = queueConnector;
         }
 
         public async Task Publish(MessageBase message, string queueName)
         {
             await _queueManager.SetQueue(queueName);
 
-            var chanel = await _queueManager.CreateChanel();
+            var chanel = await _queueConnector.CreateChanel();
+
+            var exchangeName = message.GetType().Name;
+
+            chanel.ExchangeDeclare(exchange: exchangeName, type: "direct", durable: true);
 
             var body = EncryptMessageBody(message);
 
-            chanel.BasicPublish(exchange: BROKER_NAME, routingKey: queueName, body: body);
+            chanel.BasicPublish(exchange: exchangeName, routingKey: queueName, body: body);
         }
 
         private byte[] EncryptMessageBody(MessageBase message)

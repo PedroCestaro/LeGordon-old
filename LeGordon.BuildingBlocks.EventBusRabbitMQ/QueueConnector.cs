@@ -7,17 +7,20 @@ using System.Threading.Tasks;
 
 namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
 {
-    public class QueueConnector
+    public class QueueConnector : IQueueConnector
     {
         private readonly string _hostname;
         private readonly string _password;
         private readonly string _username;
 
+        private IConnection _connection;
+
         public QueueConnector(string hostname, string password, string username)
         {
             _hostname = hostname;
             _password = password;
-            _username = username;          
+            _username = username;    
+            _connection = CreateConnection();
         }
 
 
@@ -39,5 +42,25 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
                 throw new Exception("Unable to connect: " + ex.Message, ex.InnerException);
             }
         }
+        private bool IsConnected()
+        {
+            return _connection != null && _connection.IsOpen;
+        }
+
+        public Task<IModel> CreateChanel()
+        {
+            if (!IsConnected())
+                _connection = CreateConnection();
+
+            return Task.FromResult(_connection.CreateModel());
+        }
+
+        private void Dispose()
+        {
+            _connection.Dispose();
+        }
+
+
+
     }
 }

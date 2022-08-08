@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
+namespace LeGordon.BuildingBlocks.EventBus
 {
-    public interface IQueueManager
+    public interface IQueueConnector
     {
-        Task SetQueue(string queuename);
+        Task<IModel> CreateChanel();
     }
 }
