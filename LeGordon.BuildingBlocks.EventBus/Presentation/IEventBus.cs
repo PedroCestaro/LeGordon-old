@@ -11,10 +11,10 @@ namespace LeGordon.BuildingBlocks.EventBus
     {
         void Subscribe<T, TH>()
             where T : MessageBase
-            where TH : IMessageSubscriber<T>;
+            where TH : IMessageConsumer<T>;
 
         void Unsubscribe<T, TH>()
-            where TH : IMessageSubscriber<T>
+            where TH : IMessageConsumer<T>
             where T : MessageBase;
     }
 }

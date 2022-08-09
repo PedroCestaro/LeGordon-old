@@ -10,5 +10,6 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
     public interface IQueueManager
     {
         Task SetQueue(string queuename);
+        string GetExchangeName();
     }
 }

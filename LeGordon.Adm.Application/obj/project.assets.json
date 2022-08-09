@@ -121,6 +121,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "LeGordon.BuildingBlocks.EventBus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LeGordon.BuildingBlocks.EventBus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LeGordon.BuildingBlocks.EventBus.dll": {}
+        }
       }
     }
   },
@@ -361,12 +371,18 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "LeGordon.BuildingBlocks.EventBus/1.0.0": {
+      "type": "project",
+      "path": "../LeGordon.BuildingBlocks.EventBus/LeGordon.BuildingBlocks.EventBus.csproj",
+      "msbuildProject": "../LeGordon.BuildingBlocks.EventBus/LeGordon.BuildingBlocks.EventBus.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 11.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "LeGordon.BuildingBlocks.EventBus >= 1.0.0",
       "MediatR >= 10.0.1",
       "MediatR.Contracts >= 1.0.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1"
@@ -402,7 +418,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\LeGordon\\LeGordon.BuildingBlocks.EventBus\\LeGordon.BuildingBlocks.EventBus.csproj": {
+              "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.BuildingBlocks.EventBus\\LeGordon.BuildingBlocks.EventBus.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

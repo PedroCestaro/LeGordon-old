@@ -30,7 +30,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projetos\\LeGordon\\LeGordon.BuildingBlocks.EventBus\\LeGordon.BuildingBlocks.EventBus.csproj": {
+                "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.BuildingBlocks.EventBus\\LeGordon.BuildingBlocks.EventBus.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -253,8 +257,8 @@
               "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj": {
                 "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj"
               },
-              "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.MessageHandlers.csproj": {
-                "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.MessageHandlers.csproj"
+              "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.UseCases.csproj": {
+                "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.UseCases.csproj"
               },
               "C:\\Projetos\\LeGordon\\LeGordon.Adm.Services\\LeGordon.Adm.Services.csproj": {
                 "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Services\\LeGordon.Adm.Services.csproj"
@@ -330,12 +334,12 @@
         }
       }
     },
-    "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.MessageHandlers.csproj": {
+    "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.UseCases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.MessageHandlers.csproj",
-        "projectName": "LeGordon.Adm.MessageHandlers",
-        "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.MessageHandlers.csproj",
+        "projectUniqueName": "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.UseCases.csproj",
+        "projectName": "LeGordon.Adm.UseCases",
+        "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.UseCases.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
         "outputPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\obj\\",
         "projectStyle": "PackageReference",
@@ -356,7 +360,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projetos\\LeGordon\\LeGordon.Adm.Application\\LeGordon.Adm.Application.csproj": {
+                "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Application\\LeGordon.Adm.Application.csproj"
+              },
+              "C:\\Projetos\\LeGordon\\LeGordon.BuildingBlocks.EventBus\\LeGordon.BuildingBlocks.EventBus.csproj": {
+                "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.BuildingBlocks.EventBus\\LeGordon.BuildingBlocks.EventBus.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

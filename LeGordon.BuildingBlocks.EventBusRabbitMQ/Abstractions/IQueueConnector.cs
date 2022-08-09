@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeGordon.BuildingBlocks.EventBus
+namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
 {
     public interface IQueueConnector
     {

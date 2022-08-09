@@ -25,11 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.BuildingBlocks.Eve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.BuildingBlocks.EventBusRabbitMQ", "LeGordon.BuildingBlocks.EventBusRabbitMQ\LeGordon.BuildingBlocks.EventBusRabbitMQ.csproj", "{90732D58-8A0D-4B1F-A00B-FCEF210164D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.MessageHandlers", "LeGordon.Adm.MessageBusSubscribers\LeGordon.Adm.MessageHandlers.csproj", "{EFAA3103-1300-4B0E-931A-5F50327E42D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.UseCases", "LeGordon.Adm.MessageBusSubscribers\LeGordon.Adm.UseCases.csproj", "{EFAA3103-1300-4B0E-931A-5F50327E42D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeGordon.Adm.Infrastructure.IoC", "LeGordon.Adm.Infrastructure.IoC\LeGordon.Adm.Infrastructure.IoC.csproj", "{EDFA22A9-296B-4459-995C-019238FF7EFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.Infrastructure.IoC", "LeGordon.Adm.Infrastructure.IoC\LeGordon.Adm.Infrastructure.IoC.csproj", "{EDFA22A9-296B-4459-995C-019238FF7EFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeGordon.Adm.Application", "LeGordon.Adm.Application\LeGordon.Adm.Application.csproj", "{2A12C8D4-CBCF-4695-985F-C2DC35284A63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.Application", "LeGordon.Adm.Application\LeGordon.Adm.Application.csproj", "{2A12C8D4-CBCF-4695-985F-C2DC35284A63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

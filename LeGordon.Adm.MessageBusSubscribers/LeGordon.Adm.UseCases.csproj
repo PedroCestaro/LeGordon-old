@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LeGordon.Adm.Application\LeGordon.Adm.Application.csproj" />
+    <ProjectReference Include="..\LeGordon.BuildingBlocks.EventBus\LeGordon.BuildingBlocks.EventBus.csproj" />
+  </ItemGroup>
+
 </Project>

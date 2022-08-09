@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace LeGordon.BuildingBlocks.EventBus
 {
-    public interface IMessageHandler<in TMessage> : IEventHandler
+    public interface IMessageHandler<in TMessage> : IMessageHandler
                 where TMessage : MessageBase
     {
         Task Handle(TMessage message);
     }
 
-    public interface IEventHandler
+    public interface IMessageHandler
     {
 
     }

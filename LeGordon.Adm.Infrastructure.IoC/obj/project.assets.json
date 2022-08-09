@@ -2973,6 +2973,7 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "LeGordon.BuildingBlocks.EventBus": "1.0.0",
           "MediatR": "10.0.1",
           "MediatR.Contracts": "1.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1"
@@ -3012,19 +3013,6 @@
           "bin/placeholder/LeGordon.Adm.Entities.dll": {}
         }
       },
-      "LeGordon.Adm.MessageHandlers/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0"
-        },
-        "compile": {
-          "bin/placeholder/LeGordon.Adm.MessageHandlers.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LeGordon.Adm.MessageHandlers.dll": {}
-        }
-      },
       "LeGordon.Adm.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3037,6 +3025,21 @@
         },
         "runtime": {
           "bin/placeholder/LeGordon.Adm.Services.dll": {}
+        }
+      },
+      "LeGordon.Adm.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LeGordon.Adm.Application": "1.0.0",
+          "LeGordon.BuildingBlocks.EventBus": "1.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LeGordon.Adm.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LeGordon.Adm.UseCases.dll": {}
         }
       },
       "LeGordon.BuildingBlocks.EventBus/1.0.0": {
@@ -9210,15 +9213,15 @@
       "path": "../LeGordon.Adm.Domain/LeGordon.Adm.Entities.csproj",
       "msbuildProject": "../LeGordon.Adm.Domain/LeGordon.Adm.Entities.csproj"
     },
-    "LeGordon.Adm.MessageHandlers/1.0.0": {
-      "type": "project",
-      "path": "../LeGordon.Adm.MessageBusSubscribers/LeGordon.Adm.MessageHandlers.csproj",
-      "msbuildProject": "../LeGordon.Adm.MessageBusSubscribers/LeGordon.Adm.MessageHandlers.csproj"
-    },
     "LeGordon.Adm.Services/1.0.0": {
       "type": "project",
       "path": "../LeGordon.Adm.Services/LeGordon.Adm.Services.csproj",
       "msbuildProject": "../LeGordon.Adm.Services/LeGordon.Adm.Services.csproj"
+    },
+    "LeGordon.Adm.UseCases/1.0.0": {
+      "type": "project",
+      "path": "../LeGordon.Adm.MessageBusSubscribers/LeGordon.Adm.UseCases.csproj",
+      "msbuildProject": "../LeGordon.Adm.MessageBusSubscribers/LeGordon.Adm.UseCases.csproj"
     },
     "LeGordon.BuildingBlocks.EventBus/1.0.0": {
       "type": "project",
@@ -9240,8 +9243,8 @@
       "LeGordon.Adm.Application >= 1.0.0",
       "LeGordon.Adm.Data >= 1.0.0",
       "LeGordon.Adm.Entities >= 1.0.0",
-      "LeGordon.Adm.MessageHandlers >= 1.0.0",
       "LeGordon.Adm.Services >= 1.0.0",
+      "LeGordon.Adm.UseCases >= 1.0.0",
       "LeGordon.BuildingBlocks.EventBus >= 1.0.0",
       "LeGordon.Core >= 1.0.0",
       "MediatR >= 10.0.1",
@@ -9290,8 +9293,8 @@
             "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj": {
               "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj"
             },
-            "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.MessageHandlers.csproj": {
-              "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.MessageHandlers.csproj"
+            "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.UseCases.csproj": {
+              "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.UseCases.csproj"
             },
             "C:\\Projetos\\LeGordon\\LeGordon.Adm.Services\\LeGordon.Adm.Services.csproj": {
               "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Services\\LeGordon.Adm.Services.csproj"

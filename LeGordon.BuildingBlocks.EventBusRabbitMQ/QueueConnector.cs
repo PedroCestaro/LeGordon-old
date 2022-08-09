@@ -60,7 +60,5 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
             _connection.Dispose();
         }
 
-
-
     }
 }

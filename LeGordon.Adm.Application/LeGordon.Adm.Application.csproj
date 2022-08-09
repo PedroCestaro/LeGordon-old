@@ -14,4 +14,8 @@
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LeGordon.BuildingBlocks.EventBus\LeGordon.BuildingBlocks.EventBus.csproj" />
+  </ItemGroup>
+
 </Project>

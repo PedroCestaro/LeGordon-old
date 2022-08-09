@@ -9,10 +9,9 @@ using System.Threading.Tasks;
 
 namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
 {
-    public class MessageProducer : IMessageProducer
+    public class MessageProducer<T> : IMessageProducer
+                    where T : MessageBase
     {
-        const string BROKER_NAME = "legordon_Messages";
-
 
         private readonly IQueueManager _queueManager;
         private readonly IQueueConnector _queueConnector;
@@ -23,19 +22,19 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
             _queueConnector = queueConnector;
         }
 
-        public async Task Publish(MessageBase message, string queueName)
+        public async Task Publish(MessageBase message)
         {
-            await _queueManager.SetQueue(queueName);
+            string routingKey = message.GetType().Name;
 
             var chanel = await _queueConnector.CreateChanel();
 
-            var exchangeName = message.GetType().Name;
+            string exchangeName = _queueManager.GetExchangeName();
 
             chanel.ExchangeDeclare(exchange: exchangeName, type: "direct", durable: true);
 
             var body = EncryptMessageBody(message);
 
-            chanel.BasicPublish(exchange: exchangeName, routingKey: queueName, body: body);
+            chanel.BasicPublish(exchange: exchangeName, routingKey: routingKey, body: body);
         }
 
         private byte[] EncryptMessageBody(MessageBase message)

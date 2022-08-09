@@ -9,14 +9,17 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
 {
     public class QueueManager : IQueueManager
     {
+        public String Exchange { get; private set; }
+
 
         private readonly IQueueConnector _connector;
         public List<string> Queues { get; private set; }
 
 
-        public QueueManager(IQueueConnector connection)
+        public QueueManager(IQueueConnector connection, string exchange)
         {
             _connector = connection;
+            Exchange = exchange;
         }
         
         public async Task SetQueue(string queuename)
@@ -61,7 +64,10 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
         }
 
        
-
+        public string GetExchangeName()
+        {
+            return Exchange;
+        }
         
 
     }

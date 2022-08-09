@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeGordon.Adm.MessageHandlers
+namespace LeGordon.Adm.UseCases
 {
     internal class CreateProductHandler : BackgroundService
     {
