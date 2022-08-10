@@ -47,6 +47,8 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
                             arguments: arguments
                     ) ;
 
+                chanel.QueueBind(queue: queueName, exchange: Exchange, routingKey: queueName, arguments: null);
+
                 Queues.Add(queueName);
 
                 return chanel;

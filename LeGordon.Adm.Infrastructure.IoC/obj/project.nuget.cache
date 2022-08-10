@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QdF3aPDIlTzpFwFiELyCptIavoKqlNI3J+gpcXlSsgRzq679oFLYM5snwshO+AKnUccf/+ptAduYiONPTpM8TA==",
+  "dgSpecHash": "b+EBf3OvYvGwPs67WxT5CX02+vYuQcxUHLQ0z49R2ndf5+zYvhGdH+EJtpTBg5Z0ihMFUc2xjqvCqFkTmzKCUw==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Infrastructure.IoC\\LeGordon.Adm.Infrastructure.IoC.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\pedro\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

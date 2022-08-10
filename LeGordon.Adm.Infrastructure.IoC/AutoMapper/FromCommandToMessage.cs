@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Legordon.Adm.Api.Models;
+using LeGordon.Adm.Application;
 
 namespace LeGordon.Adm.Infrastructure.IoC.AutoMapper
 {

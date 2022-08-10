@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
 {
-    public abstract class MessageConsumer<T> where T : MessageBase , IMessageConsumer<T>
+    public abstract class MessageConsumer<T> where T : MessageBase 
     {
         private readonly IQueueManager _queueManager;
         private readonly IQueueConnector _queueConnector;
@@ -24,10 +24,12 @@ namespace LeGordon.BuildingBlocks.EventBusRabbitMQ
             _messageHandler = messageHandler;
         }
 
-        public async Task Consume(string queueName)
+        public async Task Consume(MessageBase message)
         {
             IModel _chanel = await _queueConnector.CreateChanel();
             var consumer = new AsyncEventingBasicConsumer(_chanel);
+
+            string queueName = message.Name;
 
             await _queueManager.SetQueue(queueName);
 

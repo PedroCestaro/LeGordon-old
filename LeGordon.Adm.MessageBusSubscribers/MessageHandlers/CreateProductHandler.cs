@@ -1,4 +1,8 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿using AutoMapper;
+using LeGordon.Adm.Application;
+using LeGordon.Adm.Services;
+using LeGordon.BuildingBlocks.EventBus;
+using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,11 +11,22 @@ using System.Threading.Tasks;
 
 namespace LeGordon.Adm.UseCases
 {
-    internal class CreateProductHandler : BackgroundService
+    internal class CreateProductHandler : IMessageHandler<CreateProductMessage>
     {
-        protected override Task ExecuteAsync(CancellationToken stoppingToken)
+        private readonly IProductService _productService;
+        private readonly IMapper _mapper;
+
+        public CreateProductHandler (IProductService productService, IMapper mapper)
         {
-            throw new NotImplementedException();
+            _productService = productService;
+            _mapper = mapper;
+        }
+
+        public async Task Handle(CreateProductMessage message)
+        {
+            var productDto = _mapper.Map<ProductDto>(message);
+
+            await _productService.CreateProduct(productDto);
         }
     }
 }

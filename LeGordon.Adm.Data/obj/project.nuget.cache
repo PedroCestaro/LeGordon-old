@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "F6YGjtYxJj3Kx5Pachkf8Ms6Im5F6JL4dvDQAAnI8WO2zXEYK52yiSzoG0o0/BRSnlEILInDS45kM28cpdXYLQ==",
+  "dgSpecHash": "/usBndMkj+at6+Hx2r/37zUsoywg9qnE3w62WuwpCVX6f+9E2LvxpM0rpwSTccTCqF3ggE5PgxZasJP71CXHVQ==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Data\\LeGordon.Adm.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pedro\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.3\\microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.3\\microsoft.entityframeworkcore.analyzers.6.0.3.nupkg.sha512",

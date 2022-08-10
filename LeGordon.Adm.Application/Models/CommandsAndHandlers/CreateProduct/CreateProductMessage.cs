@@ -18,5 +18,7 @@ namespace LeGordon.Adm.Application
             Value = value;
             ProductImages = productImages;
         }
+
+        public CreateProductMessage() { }
     }
 }

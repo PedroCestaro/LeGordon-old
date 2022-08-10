@@ -15,6 +15,8 @@ namespace LeGordon.BuildingBlocks.EventBus
         [JsonInclude]
         public DateTime CreationDate { get; private init; }
 
+        [JsonInclude]
+        public String Name { get { return this.GetType().Name; } }
 
         [JsonConstructor]
         public MessageBase(Guid id, DateTime createDate)
@@ -28,7 +30,6 @@ namespace LeGordon.BuildingBlocks.EventBus
             Id = Guid.NewGuid();
             CreationDate = DateTime.Now;
         }
-
 
     }
 }

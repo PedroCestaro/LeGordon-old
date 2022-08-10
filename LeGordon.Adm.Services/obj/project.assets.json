@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Dapper/2.0.123": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {}
+        }
+      },
+      "Dapper.FluentMap/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "2.0.35"
+        },
+        "compile": {
+          "lib/netstandard2.0/Dapper.FluentMap.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.FluentMap.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore/6.0.3": {
         "type": "package",
         "dependencies": {
@@ -192,20 +213,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "LeGordon.Adm.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "LeGordon.Adm.Entities": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.3"
-        },
-        "compile": {
-          "bin/placeholder/LeGordon.Adm.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LeGordon.Adm.Data.dll": {}
-        }
-      },
       "LeGordon.Adm.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -233,6 +240,37 @@
     }
   },
   "libraries": {
+    "Dapper/2.0.123": {
+      "sha512": "RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
+      "type": "package",
+      "path": "dapper/2.0.123",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.0.123.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "Dapper.FluentMap/2.0.0": {
+      "sha512": "UFSBuYreRQqOQfzSJ2HOnLvBolg5VFfBjS30ohM8DT4Yra/m+bEKAjVTmCBM1VDahWsPSsKqjX5eLR37MB/O+Q==",
+      "type": "package",
+      "path": "dapper.fluentmap/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapper.fluentmap.2.0.0.nupkg.sha512",
+        "dapper.fluentmap.nuspec",
+        "lib/netstandard2.0/Dapper.FluentMap.dll",
+        "lib/netstandard2.0/Dapper.FluentMap.xml"
+      ]
+    },
     "Microsoft.EntityFrameworkCore/6.0.3": {
       "sha512": "f7ZlNOI1wPg/r0zRgvmcLAM3kwuCVGe5cZc8rYoKPDGZs5dgRFe5a43H9FnCXsyFAF6FILB08Nr9RkuNMwd3TQ==",
       "type": "package",
@@ -555,11 +593,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "LeGordon.Adm.Data/1.0.0": {
-      "type": "project",
-      "path": "../LeGordon.Adm.Data/LeGordon.Adm.Data.csproj",
-      "msbuildProject": "../LeGordon.Adm.Data/LeGordon.Adm.Data.csproj"
-    },
     "LeGordon.Adm.Entities/1.0.0": {
       "type": "project",
       "path": "../LeGordon.Adm.Domain/LeGordon.Adm.Entities.csproj",
@@ -573,7 +606,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "LeGordon.Adm.Data >= 1.0.0",
+      "Dapper >= 2.0.123",
+      "Dapper.FluentMap >= 2.0.0",
       "LeGordon.Adm.Entities >= 1.0.0"
     ]
   },
@@ -608,9 +642,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projetos\\LeGordon\\LeGordon.Adm.Data\\LeGordon.Adm.Data.csproj": {
-              "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Data\\LeGordon.Adm.Data.csproj"
-            },
             "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj": {
               "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj"
             }
@@ -626,6 +657,16 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.0.123, )"
+          },
+          "Dapper.FluentMap": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

@@ -1,4 +1,6 @@
-﻿namespace LeGordon.Adm.Services
+﻿using LeGordon.Adm.Entities;
+
+namespace LeGordon.Adm.Services
 {
     public interface IProductService
     {

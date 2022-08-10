@@ -9,7 +9,7 @@ namespace LeGordon.BuildingBlocks.EventBus
     public interface IMessageConsumer<in TMessage> : IMessageConsumer
                 where TMessage : MessageBase
     {
-        Task Consume(string queueName);
+        Task Consume(MessageBase message);
     }
 
     public interface IMessageConsumer

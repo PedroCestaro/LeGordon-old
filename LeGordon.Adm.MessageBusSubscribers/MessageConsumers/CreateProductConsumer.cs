@@ -18,10 +18,9 @@ namespace LeGordon.Adm.UseCases.MessageConsumers
             _messageConsumer = messageConsumer; 
         }
 
-        protected override Task ExecuteAsync(CancellationToken stoppingToken)
+        protected async override Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            _messageConsumer.Consume("");
-            return Task.CompletedTask;
+            await _messageConsumer.Consume(new CreateProductMessage());
         }
     }
 }
