@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Legordon.Adm.Api.Models;
 using MediatR;
+using LeGordon.Adm.Application;
 
 namespace Legordon.Adm.Api.Controllers
 {

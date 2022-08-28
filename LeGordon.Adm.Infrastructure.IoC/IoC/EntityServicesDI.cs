@@ -1,4 +1,5 @@
 ﻿using LeGordon.Adm.Services;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace LeGordon.Adm.Infrastructure.IoC
 {

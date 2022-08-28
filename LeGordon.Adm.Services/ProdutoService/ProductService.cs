@@ -21,7 +21,7 @@ namespace LeGordon.Adm.Services
             try
             {
                 var newProduct = await _productFactory.CreateProduct(dto);
-                await _repository.PersistsNewProduct(newProduct);
+                await _repository.SaveNewProduct(newProduct);
             }
             catch (Exception ex)
             {

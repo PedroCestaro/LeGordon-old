@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LeGordon.Adm.Application\LeGordon.Adm.Application.csproj" />
     <ProjectReference Include="..\LeGordon.Adm.Services\LeGordon.Adm.Services.csproj" />
     <ProjectReference Include="..\LeGordon.BuildingBlocks.EventBus\LeGordon.BuildingBlocks.EventBus.csproj" />
   </ItemGroup>

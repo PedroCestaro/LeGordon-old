@@ -1,5 +1,6 @@
-﻿using Legordon.Adm.Api.Models;
+﻿using LeGordon.Adm.Application;
 using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace LeGordon.Adm.Infrastructure.IoC
 {

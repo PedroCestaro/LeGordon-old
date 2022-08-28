@@ -7,11 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\LeGordon.Adm.Application\LeGordon.Adm.Application.csproj" />
+    <ProjectReference Include="..\LeGordon.Adm.Services\LeGordon.Adm.Services.csproj" />
     <ProjectReference Include="..\LeGordon.BuildingBlocks.EventBus\LeGordon.BuildingBlocks.EventBus.csproj" />
   </ItemGroup>
 

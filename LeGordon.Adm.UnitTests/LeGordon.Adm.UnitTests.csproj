@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LeGordon.Adm.Domain\LeGordon.Adm.Entities.csproj" />
+    <ProjectReference Include="..\LeGordon.Adm.Domain\LeGordon.Adm.Domain.csproj" />
   </ItemGroup>
 
 </Project>

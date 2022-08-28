@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qPrljoZwZHWlqN2oHQU7dRS1ozXWjVb9RpoyqHcvqODVFxfYkjNtLsCKZzqm66u9grJ6Kn5TtF0YdJWN68s5oQ==",
+  "dgSpecHash": "t4EcvT/Cpp24azYnNKC83TVgsYMgTk63bdtjiVclip43Tql0JDN6jLPnn5tFiv2nULw+fyeItN8n1pZcnU6qjQ==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj",
+  "projectFilePath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.3\\microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",

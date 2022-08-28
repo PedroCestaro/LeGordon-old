@@ -1,0 +1,15 @@
+C:\Projetos\LeGordon\LeGordon.Adm.Application\bin\Debug\net6.0\LeGordon.Adm.Application.deps.json
+C:\Projetos\LeGordon\LeGordon.Adm.Application\bin\Debug\net6.0\LeGordon.Adm.Application.dll
+C:\Projetos\LeGordon\LeGordon.Adm.Application\bin\Debug\net6.0\LeGordon.Adm.Application.pdb
+C:\Projetos\LeGordon\LeGordon.Adm.Application\bin\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.dll
+C:\Projetos\LeGordon\LeGordon.Adm.Application\bin\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.pdb
+C:\Projetos\LeGordon\LeGordon.Adm.Application\obj\Debug\net6.0\LeGordon.Adm.Application.csproj.AssemblyReference.cache
+C:\Projetos\LeGordon\LeGordon.Adm.Application\obj\Debug\net6.0\LeGordon.Adm.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\LeGordon\LeGordon.Adm.Application\obj\Debug\net6.0\LeGordon.Adm.Application.AssemblyInfoInputs.cache
+C:\Projetos\LeGordon\LeGordon.Adm.Application\obj\Debug\net6.0\LeGordon.Adm.Application.AssemblyInfo.cs
+C:\Projetos\LeGordon\LeGordon.Adm.Application\obj\Debug\net6.0\LeGordon.Adm.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\LeGordon\LeGordon.Adm.Application\obj\Debug\net6.0\LeGordon.Adm.Application.csproj.CopyComplete
+C:\Projetos\LeGordon\LeGordon.Adm.Application\obj\Debug\net6.0\LeGordon.Adm.Application.dll
+C:\Projetos\LeGordon\LeGordon.Adm.Application\obj\Debug\net6.0\refint\LeGordon.Adm.Application.dll
+C:\Projetos\LeGordon\LeGordon.Adm.Application\obj\Debug\net6.0\LeGordon.Adm.Application.pdb
+C:\Projetos\LeGordon\LeGordon.Adm.Application\obj\Debug\net6.0\ref\LeGordon.Adm.Application.dll

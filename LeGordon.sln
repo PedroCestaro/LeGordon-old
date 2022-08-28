@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adiministrative", "Adiminis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.Data", "LeGordon.Adm.Data\LeGordon.Adm.Data.csproj", "{77808BD8-BEB6-450C-80A3-7BFA68A45A21}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.Entities", "LeGordon.Adm.Domain\LeGordon.Adm.Entities.csproj", "{B7293086-9EC1-42F0-8B76-A1B9D1E27BE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Adm.Domain", "LeGordon.Adm.Domain\LeGordon.Adm.Domain.csproj", "{B7293086-9EC1-42F0-8B76-A1B9D1E27BE6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeGordon.Core", "LeGordon.Core\LeGordon.Core.csproj", "{B65DBD84-E40D-4166-9D53-BDD874FA3016}"
 EndProject

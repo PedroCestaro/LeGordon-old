@@ -1,0 +1,15 @@
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\bin\Debug\net6.0\LeGordon.BuildingBlocks.EventBusRabbitMQ.deps.json
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\bin\Debug\net6.0\LeGordon.BuildingBlocks.EventBusRabbitMQ.dll
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\bin\Debug\net6.0\LeGordon.BuildingBlocks.EventBusRabbitMQ.pdb
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\bin\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.dll
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\bin\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.pdb
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBusRabbitMQ.csproj.AssemblyReference.cache
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBusRabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBusRabbitMQ.AssemblyInfoInputs.cache
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBusRabbitMQ.AssemblyInfo.cs
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBusRabbitMQ.csproj.CoreCompileInputs.cache
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBusRabbitMQ.csproj.CopyComplete
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBusRabbitMQ.dll
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\obj\Debug\net6.0\refint\LeGordon.BuildingBlocks.EventBusRabbitMQ.dll
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBusRabbitMQ.pdb
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBusRabbitMQ\obj\Debug\net6.0\ref\LeGordon.BuildingBlocks.EventBusRabbitMQ.dll

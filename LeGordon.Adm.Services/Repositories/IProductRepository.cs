@@ -9,6 +9,6 @@ namespace LeGordon.Adm.Services.Repositories
 {
     public interface IProductRepository
     {
-        Task PersistsNewProduct(Product product);
+        Task SaveNewProduct(Product product);
     }
 }

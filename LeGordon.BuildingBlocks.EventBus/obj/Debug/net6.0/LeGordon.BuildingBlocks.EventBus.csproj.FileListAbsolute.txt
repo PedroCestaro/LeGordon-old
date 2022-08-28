@@ -1,0 +1,12 @@
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBus\bin\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.deps.json
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBus\bin\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.dll
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBus\bin\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.pdb
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBus\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.csproj.AssemblyReference.cache
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBus\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBus\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.AssemblyInfoInputs.cache
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBus\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.AssemblyInfo.cs
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBus\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.csproj.CoreCompileInputs.cache
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBus\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.dll
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBus\obj\Debug\net6.0\refint\LeGordon.BuildingBlocks.EventBus.dll
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBus\obj\Debug\net6.0\LeGordon.BuildingBlocks.EventBus.pdb
+C:\Projetos\LeGordon\LeGordon.BuildingBlocks.EventBus\obj\Debug\net6.0\ref\LeGordon.BuildingBlocks.EventBus.dll

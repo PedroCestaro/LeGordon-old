@@ -36,6 +36,18 @@
           "lib/net5.0/Dapper.dll": {}
         }
       },
+      "Dapper.FluentMap/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "2.0.35"
+        },
+        "compile": {
+          "lib/netstandard2.0/Dapper.FluentMap.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.FluentMap.dll": {}
+        }
+      },
       "MediatR/10.0.1": {
         "type": "package",
         "dependencies": {
@@ -328,7 +340,7 @@
           "bin/placeholder/LeGordon.Adm.Application.dll": {}
         }
       },
-      "LeGordon.Adm.Entities/1.0.0": {
+      "LeGordon.Adm.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -336,10 +348,10 @@
           "Microsoft.EntityFrameworkCore": "6.0.3"
         },
         "compile": {
-          "bin/placeholder/LeGordon.Adm.Entities.dll": {}
+          "bin/placeholder/LeGordon.Adm.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LeGordon.Adm.Entities.dll": {}
+          "bin/placeholder/LeGordon.Adm.Domain.dll": {}
         }
       },
       "LeGordon.Adm.Services/1.0.0": {
@@ -347,7 +359,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Dapper": "2.0.123",
-          "LeGordon.Adm.Entities": "1.0.0"
+          "Dapper.FluentMap": "2.0.0",
+          "LeGordon.Adm.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/LeGordon.Adm.Services.dll": {}
@@ -424,6 +437,19 @@
         "lib/net5.0/Dapper.xml",
         "lib/netstandard2.0/Dapper.dll",
         "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "Dapper.FluentMap/2.0.0": {
+      "sha512": "UFSBuYreRQqOQfzSJ2HOnLvBolg5VFfBjS30ohM8DT4Yra/m+bEKAjVTmCBM1VDahWsPSsKqjX5eLR37MB/O+Q==",
+      "type": "package",
+      "path": "dapper.fluentmap/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapper.fluentmap.2.0.0.nupkg.sha512",
+        "dapper.fluentmap.nuspec",
+        "lib/netstandard2.0/Dapper.FluentMap.dll",
+        "lib/netstandard2.0/Dapper.FluentMap.xml"
       ]
     },
     "MediatR/10.0.1": {
@@ -928,10 +954,10 @@
       "path": "../LeGordon.Adm.Application/LeGordon.Adm.Application.csproj",
       "msbuildProject": "../LeGordon.Adm.Application/LeGordon.Adm.Application.csproj"
     },
-    "LeGordon.Adm.Entities/1.0.0": {
+    "LeGordon.Adm.Domain/1.0.0": {
       "type": "project",
-      "path": "../LeGordon.Adm.Domain/LeGordon.Adm.Entities.csproj",
-      "msbuildProject": "../LeGordon.Adm.Domain/LeGordon.Adm.Entities.csproj"
+      "path": "../LeGordon.Adm.Domain/LeGordon.Adm.Domain.csproj",
+      "msbuildProject": "../LeGordon.Adm.Domain/LeGordon.Adm.Domain.csproj"
     },
     "LeGordon.Adm.Services/1.0.0": {
       "type": "project",

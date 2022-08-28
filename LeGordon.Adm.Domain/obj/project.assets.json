@@ -546,9 +546,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj",
-      "projectName": "LeGordon.Adm.Entities",
-      "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj",
+      "projectUniqueName": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj",
+      "projectName": "LeGordon.Adm.Domain",
+      "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
       "outputPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\obj\\",
       "projectStyle": "PackageReference",

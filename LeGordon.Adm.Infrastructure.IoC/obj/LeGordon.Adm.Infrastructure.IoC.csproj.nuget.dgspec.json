@@ -114,8 +114,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj": {
-                "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj"
+              "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj"
               },
               "C:\\Projetos\\LeGordon\\LeGordon.Adm.Services\\LeGordon.Adm.Services.csproj": {
                 "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Services\\LeGordon.Adm.Services.csproj"
@@ -133,9 +133,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.8, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
@@ -157,12 +173,12 @@
         }
       }
     },
-    "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj": {
+    "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj",
-        "projectName": "LeGordon.Adm.Entities",
-        "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj",
+        "projectUniqueName": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj",
+        "projectName": "LeGordon.Adm.Domain",
+        "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
         "outputPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -257,8 +273,8 @@
               "C:\\Projetos\\LeGordon\\LeGordon.Adm.Data\\LeGordon.Adm.Data.csproj": {
                 "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Data\\LeGordon.Adm.Data.csproj"
               },
-              "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj": {
-                "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj"
+              "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj"
               },
               "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.UseCases.csproj": {
                 "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.UseCases.csproj"
@@ -445,8 +461,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj": {
-                "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Entities.csproj"
+              "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.Domain\\LeGordon.Adm.Domain.csproj"
               }
             }
           }
@@ -464,6 +480,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.123, )"
+            },
+            "Dapper.FluentMap": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [

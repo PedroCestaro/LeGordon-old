@@ -20,7 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\LeGordon.Adm.Application\LeGordon.Adm.Application.csproj" />
     <ProjectReference Include="..\LeGordon.Adm.Data\LeGordon.Adm.Data.csproj" />
-    <ProjectReference Include="..\LeGordon.Adm.Domain\LeGordon.Adm.Entities.csproj" />
+    <ProjectReference Include="..\LeGordon.Adm.Domain\LeGordon.Adm.Domain.csproj" />
     <ProjectReference Include="..\LeGordon.Adm.MessageBusSubscribers\LeGordon.Adm.UseCases.csproj" />
     <ProjectReference Include="..\LeGordon.Adm.Services\LeGordon.Adm.Services.csproj" />
     <ProjectReference Include="..\LeGordon.BuildingBlocks.EventBus\LeGordon.BuildingBlocks.EventBus.csproj" />

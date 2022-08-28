@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bNVoCCc1/z8uCvScyGDTI/r0LZSzFGb4dJMXD7acmAEuR7JzYBNtUjQP+vBVvzNi5MEaCGBfyxqw/cuORM/f+Q==",
+  "dgSpecHash": "B5RBA5WFmh3TsjXgJqKc7vM7KA5NEVjJ20jeIilZUFOX6vWjnCLnjxODABODeuDlNAmwhNor2L4iToAzi8K5nA==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.UseCases.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\dapper.fluentmap\\2.0.0\\dapper.fluentmap.2.0.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",

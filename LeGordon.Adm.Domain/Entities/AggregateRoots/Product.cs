@@ -16,9 +16,9 @@ namespace LeGordon.Adm.Entities
         public Decimal Value { get; private set; }
         public Int32 CategoryId { get; private set; }
 
-        public Category Category { get; private set; }
+        public virtual Category Category { get; private set; }
        
-        public ICollection<ProductImage> ProductImages { get; private set; }
+        public virtual ICollection<ProductImage> ProductImages { get; private set; }
 
         private Product() { }
 
@@ -48,5 +48,6 @@ namespace LeGordon.Adm.Entities
         {
             Value = value;
         }
+
     }
 }
