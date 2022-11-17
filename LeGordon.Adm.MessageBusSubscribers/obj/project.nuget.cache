@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B5RBA5WFmh3TsjXgJqKc7vM7KA5NEVjJ20jeIilZUFOX6vWjnCLnjxODABODeuDlNAmwhNor2L4iToAzi8K5nA==",
+  "dgSpecHash": "oxtzR669ffV6VPeo90/Va5xpUwlwnMp7vMM0Hz7vU4TBKLwrwxerBYKMIJGCqn8CcGySeKdQ7oPM/vsKbcyw1g==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\LeGordon\\LeGordon.Adm.MessageBusSubscribers\\LeGordon.Adm.UseCases.csproj",
   "expectedPackageFiles": [

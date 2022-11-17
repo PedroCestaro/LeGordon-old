@@ -13,7 +13,7 @@ namespace LeGordon.Adm.Entities
         public String Name { get; private set; }
         public String Description { get; private set; }
         public Boolean IsActive { get; private set; }
-        public Decimal Value { get; private set; }
+        public Decimal Price { get; private set; }
         public Int32 CategoryId { get; private set; }
 
         public virtual Category Category { get; private set; }
@@ -22,14 +22,14 @@ namespace LeGordon.Adm.Entities
 
         private Product() { }
 
-        public Product(string name, string description, decimal value, int categoryId)
+        public Product(string name, string description, decimal price, int categoryId)
         {
             Name = name;
             Description = description;
-            Value = value;
+            Price = price;
             CategoryId = categoryId;
 
-            ProductValidations.ValideProductData(name, description, value, categoryId);
+            ProductValidations.ValideProductData(name, description, price, categoryId);
         }
 
         public void ChangeName(string name)
@@ -44,9 +44,9 @@ namespace LeGordon.Adm.Entities
             Description = description;
         }
 
-        public void ChangeValue(decimal value)
+        public void ChangePrice(decimal price)
         {
-            Value = value;
+            Price = price;
         }
 
     }

@@ -30,6 +30,7 @@ namespace LeGordon.Adm.Data.Repositories
             return _context.Products
                 .Where(x => x.Id == productId)
                 .Include(x => x.ProductImages)
+                .Include(x => x.Category)
                 .FirstAsync();
         }
     }

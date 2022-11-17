@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "39feRTPychRwB7E2rpdzHv58e5kyBnZG8xnwgNRNaumVyoVpUAUs90CTsVN1/F4dwLnhonhbfebIuyC6pWGvqQ==",
+  "dgSpecHash": "9ab7qgRtBVW1BF0WcdGn8Nrn1Y7wDt10eI2ZuGm/wY+OOezg/bjA29zejb6KmJ+XHHnqrYSI1KGCNHSJCCnYkw==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\LeGordon\\LeGordon.BuildingBlocks.EventBusRabbitMQ\\LeGordon.BuildingBlocks.EventBusRabbitMQ.csproj",
   "expectedPackageFiles": [

@@ -14,10 +14,10 @@ internal static class ProductValidations
         Validations.ValidatesString(description, "Product's description cannot be empity");
     }
 
-    public static void ValidatesValue(decimal value)
+    public static void ValidatesPrice(decimal price)
     {
-        Validations.ValidadesNull(value, "Product's value cannot be empity");
-        Validations.ValidatesValueLowerThanZero(value, "Product's value must be bigger than zero");
+        Validations.ValidadesNull(price, "Product's price cannot be empity");
+        Validations.ValidatesValueLowerThanZero(price, "Product's price must be bigger than zero");
     }
 
     public static void ValidatesCategoryValue(int categoryId)
@@ -30,7 +30,7 @@ internal static class ProductValidations
     {
         ValidatesName(name);   
         ValidatesDescription(description);
-        ValidatesValue(value);
+        ValidatesPrice(value);
         ValidatesCategoryValue(categoryId);
     }
 }

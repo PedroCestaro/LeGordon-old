@@ -9,6 +9,9 @@
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Design" Version="1.1.6" />
+    <PackageReference Include="MongoDB.Bson" Version="2.17.1" />
     <PackageReference Include="MongoDB.Driver" Version="2.17.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
@@ -17,11 +20,6 @@
   <ItemGroup>
     <ProjectReference Include="..\LeGordon.Adm.Domain\LeGordon.Adm.Domain.csproj" />
     <ProjectReference Include="..\LeGordon.Adm.Services\LeGordon.Adm.Services.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Mappings\NoSQL\" />
-    <Folder Include="Mappings\SQL\" />
   </ItemGroup>
 
 </Project>

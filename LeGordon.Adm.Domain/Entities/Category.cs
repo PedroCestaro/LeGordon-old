@@ -8,7 +8,7 @@ namespace LeGordon.Adm.Entities
         public String Name { get; private set; }    
         public Boolean IsActive { get; private set; }
 
-        private ICollection<Product> _products { get; set; }
+        public ICollection<Product> Products { get; set; }
 
         private Category() { }
 
